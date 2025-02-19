@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>KFC - Home</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: Arial, sans-serif;
+            text-align: center;
+            color: white;
+            background-color: black;
+        }
+        header {
+            background-color: white;
+            padding: 10px 0;
+        }
+        header img {
+            width: 150px;
+            height: 100px;
+        }
+        nav {
+            margin-top: 10px;
+        }
+        nav a {
+            margin: 0 15px;
+            text-decoration: none;
+            font-size: 18px;
+            color: #FF0000;
+            font-weight: bold;
+        }
+        .background {
+            background-image: url('https://th.bing.com/th?id=OIP.f6gI5N7eFMWWTAVa0fuYcwHaF7&w=279&h=223&c=8&rs=1&qlt=90&o=6&dpr=1.5&pid=3.1&rm=2');
+            background-size: cover;
+            background-position: center;
+            height: 100vh;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            text-shadow: 2px 2px 5px black;
+        }
+        .scroll-text {
+            position: absolute;
+            top: 20px;
+            font-size: 22px;
+            font-weight: bold;
+            color: yellow;
+            animation: scrollText 5s linear infinite;
+        }
+        @keyframes scrollText {
+            from { left: 100vw; }
+            to { left: -100vw; }
+        }
+        h1 {
+            font-size: 72px;
+        }
+        h2 {
+            font-size: 28px;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <img src="https://img.restaurantguru.com/r130-KFC-Queenstown-1-logo.jpg" alt="KFC Logo">
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="about-us.html">About Us</a>
+            <a href="product.html">Product</a>
+            <a href="customer-comments.html">Customer Comments</a>
+            <a href="Contact.html">Contact</a>
+        </nav>
+    </header>
+
+    <div class="scroll-text">🔥 Order Now!!! 🔥</div>
+
+    <div class="background">
+        <h1>It's Finger Lickin' Good</h1>
+        <h2>A Bite of Chicken With Joy</h2>
+    </div>
+
+</body>
+</html>

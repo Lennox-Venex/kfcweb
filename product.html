@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>KFC - Our Products</title>
+    <style>
+        /* Global Styles */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: Arial, sans-serif;
+        }
+
+        body {
+            background-color: black;
+            color: white;
+            text-align: center;
+        }
+
+        /* Header Styles */
+        header {
+            background-color: white;
+            padding: 10px 0;
+        }
+
+        header img {
+            width: 150px;
+            height: 100px;
+        }
+
+        /* Navigation Bar */
+        nav {
+            margin-top: 10px;
+        }
+
+        nav a {
+            margin: 0 15px;
+            text-decoration: none;
+            font-size: 18px;
+            color: #FF0000;
+            font-weight: bold;
+        }
+
+        /* Product Grid */
+        .products {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 20px;
+            padding: 20px;
+        }
+
+        .product {
+            background-color: white;
+            color: black;
+            width: 300px;
+            padding: 15px;
+            border-radius: 10px;
+            text-align: center;
+            box-shadow: 0 4px 8px rgba(255, 0, 0, 0.3);
+        }
+
+        .product img {
+            width: 100%;
+            height: 180px;
+            border-radius: 10px;
+        }
+
+        .product h3 {
+            margin-top: 10px;
+            font-size: 20px;
+        }
+
+        .product p {
+            font-size: 16px;
+            margin: 5px 0;
+        }
+
+        .product select {
+            width: 100%;
+            padding: 5px;
+            margin: 10px 0;
+        }
+
+        .product a {
+            display: inline-block;
+            padding: 8px 12px;
+            margin: 5px;
+            background-color: red;
+            color: white;
+            text-decoration: none;
+            border-radius: 5px;
+        }
+
+        .product a:hover {
+            background-color: darkred;
+        }
+
+        /* Responsive Design */
+        @media (max-width: 768px) {
+            .products {
+                flex-direction: column;
+                align-items: center;
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <img src="https://img.restaurantguru.com/r130-KFC-Queenstown-1-logo.jpg" alt="KFC Logo">
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="about-us.html">About Us</a>
+            <a href="product.html">Product</a>
+            <a href="customer-comments.html">Customer Comments</a>
+            <a href="contact.html">Contact</a>
+        </nav>
+    </header>
+
+    <h1>🍗 Our Delicious Products 🍗</h1>
+
+    <div class="products">
+        <!-- Product 1: Crispy Chicken Bucket -->
+        <div class="product">
+            <img src="https://th.bing.com/th/id/OIP.puMscRhUQME-4EItjOqvxQHaFj?w=750&h=350&rs=1&pid=ImgDetMain.jpg" alt="Crispy Chicken Bucket">
+            <h3>Crispy Chicken Bucket</h3>
+            <p>Signature crispy chicken recipe, cooked to perfection.</p>
+            <p><b>Price: GH₵ 69.99</b></p>
+            <select>
+                <option>4 Piece</option>
+                <option>6 Piece</option>
+                <option>8 Piece</option>
+            </select>
+            <a href="#">Add to Cart</a> <a href="#">Order Now</a>
+        </div>
+
+        <!-- Product 2: Chicken Sandwich -->
+        <div class="product">
+            <img src="https://th.bing.com/th/id/OIP.xZvVufHhCgSQ8uN6bkbkQAHaE8?rs=1&pid=ImgDetMain.jpg" alt="Chicken Sandwich">
+            <h3>Chicken Sandwich</h3>
+            <p>Deliciously crispy chicken sandwich.</p>
+            <p><b>Price: GH₵ 24.99</b></p>
+            <select>
+                <option>Original</option>
+                <option>Extra Crispy</option>
+                <option>Nashville Hot</option>
+            </select>
+            <a href="#">Add to Cart</a> <a href="#">Order Now</a>
+        </div>
+
+        <!-- Product 3: Krushers -->
+        <div class="product">
+            <img src="https://th.bing.com/th/id/OIP.RWFrTpJVvNHaGA48GTApPwHaHa?rs=1&pid=ImgDetMain.jpg" alt="Krushers">
+            <h3>Krushers</h3>
+            <p>Refreshing, cold Oreo and berry-flavored drinks.</p>
+            <p><b>Price: GH₵ 20.00</b></p>
+            <select>
+                <option>Mini Berry</option>
+                <option>Regular Berry</option>
+                <option>Mini Oreo</option>
+                <option>Regular Oreo</option>
+            </select>
+            <a href="#">Add to Cart</a> <a href="#">Order Now</a>
+        </div>
+
+        <!-- Product 4: Chicken Tenders -->
+        <div class="product">
+            <img src="https://th.bing.com/th/id/OIP.4ntEec5xZ8oTVuj9dWcIWAHaD4?rs=1&pid=ImgDetMain.jpg" alt="Chicken Tenders">
+            <h3>Chicken Tenders</h3>
+            <p>Crispy, juicy chicken tenders.</p>
+            <p><b>Price: GH₵ 39.99</b></p>
+            <select>
+                <option>4 Piece</option>
+                <option>6 Piece</option>
+                <option>8 Piece</option>
+            </select>
+            <a href="#">Add to Cart</a> <a href="#">Order Now</a>
+        </div>
+
+        <!-- Product 5: Mashed Potato & Gravy -->
+        <div class="product">
+            <img src="https://www.mashed.com/img/gallery/the-truth-about-kfcs-famous-mashed-potatoes/intro-1640031228.jpg" alt="Mashed Potato and Gravy">
+            <h3>Mashed Potato & Gravy</h3>
+            <p>Classic creamy mashed potatoes with rich gravy.</p>
+            <p><b>Price: GH₵ 25.99</b></p>
+            <a href="#">Add to Cart</a> <a href="#">Order Now</a>
+        </div>
+    </div>
+
+</body>
+</html>
